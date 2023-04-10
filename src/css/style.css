@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+
+    width: 800px;
+    height: 400px;
+
+    background: url(../img/bg-repeat.jpg) repeat-x center;
+    background-size: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin: auto 40px;
+}
+
+.container .sobre {
+    color: #ffffff;
+
+    max-width: 300px;
+}
+
+.container .sobre .tittle {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.container .sobre .texto {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container .formulario {
+    padding: 20px;
+    width: 340px;
+    height: 378px;
+
+    background-color: #ffffff;
+}
+
+.container .formulario .inputs {
+    position: relative;
+}
+
+.container .formulario .input {
+    width: 300px;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+    
+}
+
+.container .formulario .input::placeholder {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.container .formulario .input.no-complete {
+    border-color: #F52E2E;
+}
+
+.container .formulario .input.no-complete::placeholder {
+    color: #F52E2E;
+    opacity: 0.75;
+}
+
+.container .formulario .input.complete {
+    border-color: #00C22B;
+}
+
+
+.container .formulario .inputs.mensagem .input {
+    height: 100px;
+    margin-bottom: auto;
+}
+
+.container .formulario .inputs.mensagem .input.no-complete  {
+    margin-bottom: 12px;
+}
+
+.container .formulario .inputs span{
+    position: absolute;
+    left: 1px;
+    bottom: 4px;
+
+    display: none;
+    color: #F52E2E;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.container .formulario .inputs span.visible{
+    display: inline;
+}
+
+.container .formulario .obrigatorio {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.container .formulario .btn-submit {
+    cursor: pointer;
+
+    padding: 12px;
+
+    color: #ffffff;
+    background-color: #3CCC87;
+    border: none;
+}
