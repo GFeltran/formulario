@@ -21,13 +21,13 @@ O desafio conciste na criação de uma página de formulário:
 
 ### Designs:
 Versão desktop:
-![](./design/desktop-design.jpg)
+![](./design/desktop-design.png)
 
 Versão desktop erro:
-![](./design/desktop-design-erro.jpg)
+![](./design/desktop-design-erro.png)
 
 Versão desktop confirm:
-![](./design/desktop-design-confirm.jpg)
+![](./design/desktop-design-confirm.png)
 
 ## Meu Processo
 ### Processo utilizado:
