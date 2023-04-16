@@ -59,10 +59,10 @@ Versão desktop confirm:
 ### Minhas dificuldades:
 
 - Tive dificuldade na hora de mostrar o erro para email errado.
-    - .
+    - Resolvi colocando uma const re para validar se e um email aceito e fazendo o test junto com a validacao.
 
 - Tive dificuldade para permitir apenas digito no input de celular.
-    - .
+    - Resolvi colocando um oninput permitindo apenas numero.
 
 ## Autor
 
