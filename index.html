@@ -40,7 +40,7 @@
                     </div>
 
                     <div class="telefone inputs">
-                        <input type="text" name="telefone" id="telefone" placeholder="Telefone *" class="input required">
+                        <input type="text" name="telefone" id="telefone" placeholder="Telefone *" class="input required" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
                         <span class="span">campo obrigatório</span>
                     </div>
 

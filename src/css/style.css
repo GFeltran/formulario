@@ -4,16 +4,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    height: 100vh;
 }
 
 .main {
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    width: 800px;
-    height: 400px;
+    min-width: 100vw;
+    min-height: 100vh;
 
     background: url(../img/bg-repeat.jpg) repeat-x center;
     background-size: contain;
@@ -21,10 +20,10 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
-    width: 100%;
+    min-width: 100%;
     margin: auto 40px;
 }
 
@@ -46,9 +45,10 @@ body {
 
 .container .formulario {
     padding: 20px;
-    width: 340px;
-    height: 378px;
+    min-width: 340px;
+    min-height: 378px;
 
+    border-radius: 5px;
     background-color: #ffffff;
 }
 
@@ -62,8 +62,6 @@ body {
     margin-bottom: 15px;
     border: 1px solid #000000;
     border-radius: 5px;
-
-    
 }
 
 .container .formulario .input::placeholder {

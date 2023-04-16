@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .container .sobre {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
