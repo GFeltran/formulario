@@ -23,14 +23,17 @@ O desafio conciste na criação de uma página de formulário:
 Versão desktop:
 ![](./design/desktop-design.jpg)
 
-Versão Mobile:
-![](./design/mobile-design.jpg)
+Versão desktop erro:
+![](./design/desktop-design-erro.jpg)
+
+Versão desktop confirm:
+![](./design/desktop-design-confirm.jpg)
 
 ## Meu Processo
 ### Processo utilizado:
 1. Análise do projeto e design
     - Analisei o design do projeto para poder estudar onde colocar cada elemento e para ver quais elementos iria precisar.
-    ![](./design/huddle-grid.png)
+    ![](./design/grid-design.png)
 2. Criação da base do projeto
     - Criar a estrutura de pastas e diretórios do projeto.
 3. Começando a codar
@@ -58,7 +61,7 @@ Versão Mobile:
 - Tive dificuldade na hora de mostrar o erro para email errado.
     - .
 
-- Tive dificuldade na hora de mostrar o erro para numero de telefone incorreto.
+- Tive dificuldade para permitir apenas digito no input de celular.
     - .
 
 ## Autor
